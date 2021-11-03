@@ -5,8 +5,6 @@ const conn = net.createConnection({
 });
 // establishes a connection with the game server
 const connect = function() {
-  
-
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
