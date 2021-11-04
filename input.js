@@ -23,6 +23,8 @@ const handleUserInput = function(stdin) {
     connection.write("Move: down");
   } else if (stdin === 'd') {
     connection.write("Move: right");
+  } else if (stdin === 'n') {
+    connection.write("Say: How r you?");
   }
 };
 
